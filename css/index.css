@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ul{
+	list-style:none;
+}
+
+div.clear{
+	clear:both;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+div#animacao{
+	width:100%;
+	height:492px;
+	background:url(../imagens/animacao.jpg) no-repeat;
+}
+
+div#topo{
+	height:112px;
+	margin-top:0;
+	background:url(../imagens/fundo-topo.png) repeat-x;
+}
+
+div.topo img{
+	margin-top:25px;
+	float:left;
+	margin-left:0;
+}
+
+div.topo ul{
+	width:460px;
+	height:auto;
+	margin-top:48px;
+	margin-right:0;
+	float:right;
+}
+
+div.topo ul li{
+	float:right;
+	margin-left:30px;
+	font-family: "Segoe UI Light";
+	font-size:14px;
+	font-weight:100;
+}
+
+div.topo ul li a{
+	color:#fff;
+}
+
+div.catalogo{
+	width:50%;
+	height:130px;
+	float:left;
+	margin-top:125px;
+	background:url(../imagens/fundo-topo.png) repeat;
+}
+
+div.catalogo div.play{
+	float:right;
+	margin-right: -19px;
+    margin-top: -65px;
+}
+
+div.catalogo h2{
+	font-family: "Segoe UI Semibold";
+	font-size:18px;
+	color:#18bdc8;
+	float:right;
+	line-height:18px;
+	text-align:right;
+	margin-right:80px;
+	margin-top:30px;
+}
+
+div.catalogo h1{
+	font-family: "Segoe UI Semibold";
+	font-size:40px;
+	color:#FFF;
+	float:right;
+	margin-right:80px;
+	line-height:18px;
+	text-align:right;
+}
+
+
+div#esp-botoes{
+	margin-top:-30px;
+}
+
+div#botoes{
+	margin:0 auto;
+	float:none;
+}
+
+
+.bt-home-destaque {
+	width:340px;
+	height:86px;
+	border:none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+   	background: #9b1349; /* Old browsers */
+	background: -moz-linear-gradient(top, #cf1b62 0%, #9b1349 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cf1b62), color-stop(100%,#9b1349)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #cf1b62 0%,#9b1349 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #cf1b62 0%,#9b1349 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #cf1b62 0%,#9b1349 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #cf1b62 0%,#9b1349 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf1b62', endColorstr='#9b1349',GradientType=0 ); /* IE6-9 */
+    background-repeat: repeat-x;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    /*border-style: solid;
+   border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);*/
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div#trilhas{
+	float:left;
+	margin-left:0;
+	margin-top:50px;
+}
+
+div#trilhas p{
+	font-family: "Segoe UI Semibold";
+	font-size:15px;
+	color:#2f2f2f;
+}
+
+div#trilhas p img{
+	margin-left:10px;
+	margin-top:-5px;
+}
+
+div#trilhas img{
+	margin-top:38px;
+}
+	
+
+div#representantes{
+	float:left;
+	margin-left:0;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+div#representantes p{
+	font-family: "Segoe UI Semibold";
+	font-size:15px;
+	color:#2f2f2f;
+	text-align:right;
+}
+
+div#representantes p img{
+	margin-left:10px;
+	margin-top:-5px;
+	margin-right:0;
+}
+
+div#representantes img{
+	margin-top:38px;
+	float:right;
+	margin-right:15px;
+}
+
+span.traco{
+	display:block;
+	width:100%;
+	height:1px;
+	background:#cfcfcf;
+}
+
+div#info{
+	float:left;
+	margin-left:0;
+	margin-top:50px;
+	margin-bottom:80px;
+}
+
+div#info p{
+	font-family: "Segoe UI Light";
+	font-size:11px;
+	font-weight:100;
+	color:#2f2f2f;
+}
+
+div#info ul{
+	float:left;
+	margin-top:-5px;
+	margin-left:0;
+}
+
+div#info ul li{
+	float:left;
+	margin-right:6px;
+	font-family: "Segoe UI Light";
+	font-size:11px;
+	font-weight:100;
+	color:#2f2f2f;
+}
+div#info ul li a{
+	color:#2f2f2f;
+}
+
+div#social{
+	float:left;
+	margin-left:0;
+	margin-top:50px;
+	margin-bottom:80px;
+}
+
+div#social ul{
+	float:right;
+	margin-top:-5px;
+	margin-right:0;
+}
+
+div#social ul li{
+	float:right;
+	margin-left:6px;
+}
+	

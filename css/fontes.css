@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+        font-family: "Segoe UI Light";
+        src: url('88378907-segoeuil.eot');
+        src: url('88378907-segoeuil.eot?#iefix') format('embedded-opentype'),
+        url('88378907-segoeuil.svg#Segoe UI Light') format('svg'),
+        url('88378907-segoeuil.woff') format('woff'),
+        url('88378907-segoeuil.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+ }
+
+@font-face {
+        font-family: "Segoe UI Semibold";
+        src: url('965667725-seguisb.eot');
+        src: url('965667725-seguisb.eot?#iefix') format('embedded-opentype'),
+        url('965667725-seguisb.svg#Segoe UI Semibold') format('svg'),
+        url('965667725-seguisb.woff') format('woff'),
+        url('965667725-seguisb.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+
