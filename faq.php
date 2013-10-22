@@ -52,8 +52,8 @@
     </div>
 	<div class="span4" id="bts-interno">
     	<button class="bt-interna-catalogo" type="button"><img src="imagens/bt-catalogo.png" width="199" height="54" alt="Acesse o Catalogo" /></button>
-    	<button class="bt-interna-destaque" type="button"><img src="imagens/bt1-i.png" width="196" height="28" alt="Desejo Comprar Música" /></button>
-        <button class="bt-interna-destaque" type="button"><img src="imagens/bt2-i.png" width="178" height="30" alt="Desejo Vender Música" /></button>
+    	<button class="bt-interna-destaque" type="button"><img src="imagens/buy_alt.png" width="196" height="28" alt="Desejo Comprar Música" /></button>
+        <button class="bt-interna-destaque" type="button"><img src="imagens/sell_alt.png" width="178" height="30" alt="Desejo Vender Música" /></button>
     </div>
 </div>
 
