@@ -9,8 +9,6 @@ div#dados{
 	margin-left:20px;
 }
 
-
-
 div.bts-interno{
 	margin-left:0;
 }
@@ -28,7 +26,6 @@ div#dados p.conteudo{
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:14px;
 	line-height:23px;
-	margin-bottom:150px;
 }
 
 div#dados h1{
@@ -123,15 +120,14 @@ div#dados p.titulo{
 	font-family: "Segoe UI Semibold";
 	font-size:14px;
 	color:#d21b63;
-	margin-top:45px;
+	margin-top:25px;
+    margin-bottom:5px;
 	font-weight:bold;
 }
 
 div#dados ul {
 	float:left;
-	margin-top:0px;
-	margin-left:0;
-	margin-bottom:-15px;
+    margin:0px;
 }
 
 div#dados ul li{
@@ -143,8 +139,7 @@ div#dados ul li{
 }
 
 div#respostas{
-	margin-top:75px;
-	margin-bottom:80px;
+	margin-top:45px;
 }
 
 div#respostas h1{
@@ -154,8 +149,6 @@ div#respostas h1{
 	font-weight:bold;
 	line-height:20px;
 }
-
-
 
 div#respostas h2{
 	color:#d21b63;
@@ -197,7 +190,7 @@ div#respostas p{
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     text-align: center;
     vertical-align: middle;
 }

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#header{
+    width:100%;
+    background-color: black;
+	height:90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*
+    height:112px;
+	margin-top:0;
+	background:url(../imagens/fundo-topo.png) repeat-x;
+    */
+}
+
+div.header img{
+	margin-top:10px;
+	float:left;
+	margin-left:0;
+}
+
+div.header ul{
+	width:auto;
+	height:auto;
+	margin-top:48px;
+	margin-right:0;
+	float:right;
+}
+
+div.header ul li{
+	float:right;
+	margin-left:30px;
+	font-family: "Segoe UI Light";
+	font-size:14px;
+	font-weight:100;
+}
+
+div.header ul li a{
+	color:#fff;
+}

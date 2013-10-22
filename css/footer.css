@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document for FOOTER section*/
+
+div#trilhas{
+	margin-left:0;
+}
+
+div#trilhas p{
+	font-family: "Segoe UI Semibold";
+	font-size:15px;
+	color:#2f2f2f;
+    margin-bottom:0px;
+}
+
+div#trilhas p img{
+	margin-left:10px;
+	margin-top:-5px;
+}
+
+div#trilhas img{
+	margin-top:38px;
+}
+	
+div#representantes{
+	margin-left:0;
+}
+
+div#representantes p{
+	font-family: "Segoe UI Semibold";
+	font-size:15px;
+	color:#2f2f2f;
+	text-align:right;
+    margin-bottom:0px;
+}
+
+div#representantes p img{
+	margin-left:10px;
+	margin-top:-5px;
+	margin-right:0;
+}
+
+div#representantes img{
+	margin-top:38px;
+	float:right;
+	margin-right:15px;
+}
+
+div#info{
+	float:left;
+	margin-left:0;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div#info p{
+	font-family: "Segoe UI Light";
+	font-size:11px;
+	font-weight:100;
+	color:#2f2f2f;
+}
+
+div#info ul{
+	float:left;
+	margin-top:-5px;
+	margin-left:0;
+}
+
+div#info ul li{
+	float:left;
+	margin-right:6px;
+	font-family: "Segoe UI Light";
+	font-size:11px;
+	font-weight:100;
+	color:#2f2f2f;
+}
+div#info ul li a{
+	color:#2f2f2f;
+}
+
+div#footer {
+    padding-top:10px;
+}
+
+div#social{
+	float:left;
+	margin-left:0;
+	margin-top:50px;
+	margin-bottom:80px;
+}
+
+div#social ul{
+	float:right;
+	margin-top:-5px;
+	margin-right:0;
+}
+
+div#social ul li{
+	float:right;
+	margin-left:6px;
+}
+	
