@@ -2,7 +2,7 @@
 /* CSS Document */
 
 div#header{
-    width:100%;
+    width:auto;
     background-color: black;
 	height:90px;
     padding-left: 50px;

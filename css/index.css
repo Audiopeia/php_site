@@ -9,8 +9,7 @@ div.clear{
 }
 
 div.space{
-    margin-top:25px;
-    margin-bottom:25px;
+    height:50px;
 }
 
 .left{
@@ -21,62 +20,47 @@ div.space{
 	float:right;
 }
 
-div.content {
-	margin-bottom:50px;
-}
-
 div#animacao{
 	width:100%;
 	height:492px;
-    margin-bottom:70px;
 	background:url(../imagens/animacao.jpg) no-repeat;
 }
 
 div.catalogo{
-	width:50%;
-	height:130px;
+	width:100%;
+	height:230px;
 	float:left;
-	margin-top:125px;
+	margin-top:55px;
+    text-align:center;
 	background:url(../imagens/fundo-topo.png) repeat;
-}
-
-div.catalogo div.play{
-	float:right;
-	margin-right: -23px;
-    margin-top: -103px;
 }
 
 div.catalogo h2{
 	font-family: "Segoe UI Semibold";
 	font-size:18px;
 	color:#18bdc8;
-	float:right;
 	line-height:18px;
-	text-align:right;
-	margin-right:294px;
-	margin-top:10px;
-	margin-bottom:20px;
+	text-align:center;
 }
 
 div.catalogo h1{
 	font-family: "Segoe UI Semibold";
 	font-size:26px;
 	color:#FFF;
-	float:right;
-	margin-right:80px;
 	line-height:18px;
-	text-align:right;
+	text-align:center;
+    margin-top:35px;
+    margin-bottom:35px;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 div.catalogo h3{
 	font-family: "Segoe UI Semibold";
 	font-size:18px;
 	color:#B2BCC0;
-	float:right;
-	margin-right:306px;
-    margin-top:20px;
 	line-height:18px;
-	text-align:left;
+	text-align:center;
 }
 div#esp-botoes{
 	padding-top:200px;
@@ -88,7 +72,36 @@ div#botoes{
 	float:none;
 }
 
-.bt-home-destaque {
+.bt-buy {
+	width:340px;
+	height:86px;
+	border:none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+   	background: #9b1349; /* Old browsers */
+    background: -moz-linear-gradient(top, #18bbc6 0%, #d787f9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left, top, left bottom, color-stop(0%,#18bbc6), color-stop(100%,#0d787f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #18bbc6 0%, #0d787f 100%)100; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #18bbc6 0%, #0d787f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradientent(top, #18bbc6 0%, #0d787f 100%); /* IE10+ */
+    background: linear-gradiententdient(to bottom, #18bbc6 0%,#0d787f 100%); /* W3C */
+    filter: progid:DXImageTransformXImageTransform.Microsoft.gradient( startColorstr='#18bbc6', endColorstr='#0d787f',GradientType=0 ); /* IE6-9 */
+    background-repeat: repeat-x;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bt-sell {
 	width:340px;
 	height:86px;
 	border:none;
@@ -107,9 +120,6 @@ div#botoes{
     background-repeat: repeat-x;
     border-image: none;
     border-radius: 4px 4px 4px 4px;
-    /*border-style: solid;
-   border-width: 1px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);*/
     color: #333333;
     cursor: pointer;
     display: inline-block;
@@ -119,7 +129,6 @@ div#botoes{
     text-align: center;
     vertical-align: middle;
 }
-
 span.traco{
 	display:block;
 	width:100%;

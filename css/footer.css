@@ -18,7 +18,9 @@ div#trilhas p img{
 }
 
 div#trilhas img{
-	margin-top:38px;
+	/* margin-top:38px; */
+    padding-top:20px;
+    padding-bottom:20px;
 }
 	
 div#representantes{
@@ -43,6 +45,42 @@ div#representantes img{
 	margin-top:38px;
 	float:right;
 	margin-right:15px;
+}
+
+div#depoimento{
+    float:left;
+    margin-left:0;
+    /* margin-top:60px;
+    margin-bottom:65px;
+    */
+ }
+
+div#depoimento p{
+    width:370px;
+    height:auto;
+    font-family: "Segoe UI Semibold";
+    font-size:15px;
+    line-height:22px;
+    text-align:right;
+    float:right;
+    color:#2f2f2f;
+}
+
+div#depoimento p span{
+    font-family: "Segoe UI Semibold";
+    font-size:12px;
+    font-style:italic;
+    color:#858585;
+}
+
+div#depoimento img{
+    float:right;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div#multiverse img{
+    margin-left:30px;
 }
 
 div#info{

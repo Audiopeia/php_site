@@ -1,11 +1,12 @@
 ﻿<?php include "./includes/header.html"; ?>
 
-<div class="container content">
-	<div class="span8" id="dados">
-		<p>Você está em:</p>
-    	<h1>Termos de Uso</h1>
-    	<span class="traco"></span>
-        <p class="conteudo"><b>TERMO DE USO DA PLATAFORMA AUDIOPEIA</b><br />
+<div class="navbar-inner content">
+    <div class="container">
+	    <div class="span8" id="dados">
+		    <p>Você está em:</p>
+        	<h1>Termos de Uso</h1>
+        	<span class="traco"></span>
+            <p class="conteudo"><b>TERMO DE USO DA PLATAFORMA AUDIOPEIA</b><br />
 A Plataforma Audiopeia consiste em uma plataforma de hospedagem e divulgação que permite aos produtores disponibilizarem trilhas sonoras no mercado para visualização e aquisição, pelo cliente, dos direitos de reprodução desse conteúdo. Ao acessar a plataforma e visualizar, acessar ou utilizar, de qualquer modo, qualquer um dos serviços oferecidos, o cliente afirma ter conhecimento e concorda com este Termo de Uso da Plataforma, consoante as cláusulas a seguir <br /><br />
 <b>I – DEFINIÇÕES</b><br />
 Produtor: usuário detentor dos direitos patrimoniais e morais sobre a trilha sonora disponibilizada no mercado.<br /><br />
@@ -42,12 +43,13 @@ Mercado: ambiente no qual estão disponibilizadas as trilhas sonoras para visual
 <b>IV – DO FORO</b><br />
 11. Para a solução de eventuais litígios decorrentes deste Termo de Uso da Plataforma Audiopeia, as partes elegem o foro da comarca de Florianópolis/SC, com exclusão de qualquer outro, por mais privilegiado que seja.
         
-        </p>
-	</div>
-	<div class="span4" id="bts-interno">
-    	<button class="bt-interna-catalogo" type="button"><img src="imagens/bt-catalogo.png" width="199" height="54" alt="Acesse o Catalogo" /></button>
-    	<button class="bt-interna-destaque" type="button"><img src="imagens/buy_alt.png" width="196" height="28" alt="Desejo Comprar Música" /></button>
-        <button class="bt-interna-destaque" type="button"><img src="imagens/sell_alt.png" width="178" height="30" alt="Desejo Vender Música" /></button>
+            </p>
+	    </div>
+    	<div class="span4" id="bts-interno">
+        	<button class="bt-interna-catalogo" type="button"><img src="imagens/bt-catalogo.png" width="199" height="54" alt="Acesse o Catalogo" /></button>
+    	    <button class="bt-interna-destaque" type="button"><img src="imagens/buy_alt.png" width="196" height="28" alt="Desejo Comprar Música" /></button>
+            <button class="bt-interna-destaque" type="button"><img src="imagens/sell_alt.png" width="178" height="30" alt="Desejo Vender Música" /></button>
+        </div>
     </div>
 </div>
 
