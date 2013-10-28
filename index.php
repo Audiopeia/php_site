@@ -10,8 +10,12 @@
 
     <div class="container" id="esp-botoes">
         <div class="span9" id="botoes">
-            <button class="bt-buy left"   type="button"><img src="imagens/buy.png" width="200" height="38" alt="Comprar Música" /></button>
-            <button class="bt-sell right" type="button"><img src="imagens/sell.png" width="200" height="38" alt="Vender Música" /></button>
+            <button class="bt-buy left" type="button">
+                <img src="imagens/buy.png" width="200" height="38" alt="Comprar Música" />
+            </button>
+            <button class="bt-sell right" type="button">
+                    <img src="imagens/sell.png" width="200" height="38" alt="Vender Música" />
+            </button>
         </div>
     </div>
 </div>

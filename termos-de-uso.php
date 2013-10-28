@@ -1,4 +1,4 @@
-﻿<?php include "./includes/header.html"; ?>
+<?php include "./includes/header.html"; ?>
 
 <div class="navbar-inner content">
     <div class="container">

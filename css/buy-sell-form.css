@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document for concierge popup forms */
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-dialog-titlebar {
+    background: grey;
+    color: black;
+    text-align:center;
+    line-height:22px;
+}
+
+.concierge-dialog-form{
+    float:center;
+    width:370px;
+    height:auto;
+    font-family: "Segoe UI Semibold";
+    font-size:15px;
+    line-height:18px;
+    text-align:left;
+    color:black;
+    background:grey;
+}
+
+.concierge-dialog-form input, textarea{
+    width:350px;
+}
+

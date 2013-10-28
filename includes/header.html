@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Audiopeia</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/fontes.css" type="text/css" media="screen"/>
@@ -10,10 +11,9 @@
         <link rel="stylesheet" href="css/header.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/index.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/footer.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/buy-sell-form.css" type="text/css" media="screen"/>
 		<link rel="stylesheet" href="css/smoothDivScroll.css" type="text/css" media="screen"/>
-        <link rel="shortcut icon" href="imagens/favicon.ico"/>
-
-		
+        <link rel="shortcut icon" href="imagens/favicon.ico"/>		
     </head>
     <body>
 
@@ -28,4 +28,37 @@
                 <li><a href="index.php">Página Inicial</a></li>
             </ul>
         </div>
+    </div>
+
+    <div id="buy-dialog-form" class="concierge-dialog-form" title="Descreva seu projeto">
+        <form action="">
+            <fieldset>
+                <label for="name">Nome</label>
+                <input type="text" name="name" class="name text ui-widget-content ui-corner-all" />
+                <label for="email">Email</label>
+                <input type="text" name="email" value="" class="email text ui-widget-content ui-corner-all" />
+                <label for="phone">Telefone</label>
+                <input type="text" name="phone" value="" class="phone text ui-widget-content ui-corner-all" />
+                <label for="link">Link para briefing/video</label>
+                <input type="text" name="link" value="" class="link text ui-widget-content ui-corner-all" />
+                <label for="message">Mensagem</label>
+                <textarea name="message" class="message text ui-widget-content ui-corner-all"></textarea>
+            </fieldset>
+        </form>
+    </div>
+    <div id="sell-dialog-form" class="concierge-dialog-form" title="Gostaria de anunciar suas músicas?">
+        <form action="send_mail.php" method="POST">
+            <fieldset>
+                <label for="name">Nome</label>
+                <input type="text" name="name" class="name text ui-widget-content ui-corner-all" />
+                <label for="email">Email</label>
+                <input type="text" name="email" value="" class="email text ui-widget-content ui-corner-all" />
+                <label for="phone">Telefone</label>
+                <input type="text" name="phone" value="" class="phone text ui-widget-content ui-corner-all" />
+                <label for="link">Link para portfolio/perfil (facebook, linkedin, soundcloud)</label>
+                <input type="text" name="link" value="" class="link text ui-widget-content ui-corner-all" />
+                <label for="message">Mensagem</label>
+                <textarea name="message" class="message text ui-widget-content ui-corner-all"></textarea>
+            </fieldset>
+        </form>
     </div>

@@ -3,15 +3,15 @@
 
 div#header{
     width:auto;
-    background-color: black;
 	height:90px;
     padding-left: 50px;
     padding-right: 50px;
     /*
     height:112px;
 	margin-top:0;
-	background:url(../imagens/fundo-topo.png) repeat-x;
+    background-color: black;
     */
+	background:url(../imagens/spotlights.jpg);
 }
 
 div.header img{

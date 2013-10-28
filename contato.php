@@ -12,32 +12,32 @@
             </p>
 
             <div class="span5" id="contato">
-                <form class="form-horizontal">
+                <form class="form-horizontal" action="send_mail.php" method="post">
       	            <div class="control-group">
-        		        <label class="control-label" for="inputNome">Nome</label>
+        		        <label class="control-label" for="name">Nome</label>
             	    	<div class="controls">
-              		        <input type="text" id="inputNome">
+              		        <input type="text" id="name" name="name">
                 		</div>
   	    	        </div>
 
                     <div class="control-group">
-            		    <label class="control-label" for="inputEmail">Email</label>
+            		    <label class="control-label" for="email">Email</label>
         	        	<div class="controls">
-          		            <input type="text" id="inputEmail">
+          		            <input type="text" id="email" name="email">
             		    </div>
       	        	</div>
 
                     <div class="control-group">
-        	    	    <label class="control-label" for="inputAssunto">Assunto</label>
+        	    	    <label class="control-label" for="subject">Assunto</label>
             	    	<div class="controls">
-          	    	        <input type="text" id="inputAssunto">
+          	    	        <input type="text" id="subject" name="subject">
         	        	</div>
               		</div>
 
                     <div class="control-group">
-            	    	<label class="control-label" for="inputMensagem">Mensagem</label>
+            	    	<label class="control-label" for="message">Mensagem</label>
     	        	    <div class="controls">
-                            <textarea id="inputMensagem"></textarea>
+                            <textarea id="message" name="message"></textarea>
         		        </div>
           	    	</div>
               		<div class="control-group">
