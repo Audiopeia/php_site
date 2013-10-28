@@ -4,6 +4,16 @@
   display: none;
 }
 
+.ui-state-error {
+    padding: .3em; 
+}
+
+
+.validateTips {
+    border: 1px solid transparent; 
+    padding: 0.3em; 
+}
+
 .ui-dialog-titlebar {
     background: grey;
     color: black;
@@ -12,7 +22,6 @@
 }
 
 .concierge-dialog-form{
-    float:center;
     width:370px;
     height:auto;
     font-family: "Segoe UI Semibold";

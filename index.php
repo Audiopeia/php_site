@@ -3,8 +3,10 @@
 <div class="navbar-inner content" id="animacao">
     <div class="catalogo">
         <h2>Música de qualidade sem complicação!</h2>
-        <h1>QUE TIPO DE TRILHA VOCÊ PROCURA?</h1>
+        <h1>VOCÊ DIZ A TRILHA QUE PROCURA E A <br> AUDIOPEIA ENCONTRA PARA VOCÊ</h1>
+        <!--
         <h3>A Audiopeia encontra para você!</h3>
+        -->
         <div class="clear"></div>
     </div>
 
