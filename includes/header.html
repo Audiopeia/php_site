@@ -31,7 +31,7 @@
     </div>
 
     <div id="buy-dialog-form" class="concierge-dialog-form" title="Descreva seu projeto">
-        <form action="">
+        <form action="send_mail.php" method="POST" class="buy-sell-form">
             <fieldset>
                 <label for="name">Nome</label>
                 <input type="text" name="name" class="name text ui-widget-content ui-corner-all" />
@@ -47,7 +47,7 @@
         </form>
     </div>
     <div id="sell-dialog-form" class="concierge-dialog-form" title="Gostaria de anunciar suas músicas?">
-        <form action="send_mail.php" method="POST">
+        <form action="send_mail.php" method="POST" class="buy-sell-form">
             <fieldset>
                 <label for="name">Nome</label>
                 <input type="text" name="name" class="name text ui-widget-content ui-corner-all" />

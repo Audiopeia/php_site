@@ -18,7 +18,7 @@
             <ul>
         	    <li>- Como recebo meu dinheiro?</li>
                 <li>- Em quanto tempo recebo?</li>
-                <li>- Não recebi 60% do valor da venda. O que houve?</li>
+                <li>- Não recebi 50% do valor da venda. O que houve?</li>
                 <li>- Posso vender minhas obras em outros locais?</li>
                 <li>- Por que?</li>
                 <li>- Posso retirar minhas obras do site?</li>

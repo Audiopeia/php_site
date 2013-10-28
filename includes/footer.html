@@ -94,7 +94,7 @@
 
                         if(bValid){
                             //ENVIAR
-                            $("#send_mail.php").submit();
+                            $(".buy-sell-form").submit();
                             $(this).dialog( "close" );
                         }
                     },
@@ -120,11 +120,13 @@
             });	
             $(".bt-buy").button().click(function() {
                 //$('<div>').load('forms.php').dialog();
-                $("#buy-dialog-form").dialog("open");
+                //$("#buy-dialog-form").dialog("open");
+                document.location.href='contato.php';
             });
             $(".bt-sell").button().click(function() {
                 //$('<div>').load('forms.php').dialog();
-                $("#sell-dialog-form").dialog("open");
+                //$("#sell-dialog-form").dialog("open");
+                document.location.href='contato.php';
             });
         });
     </script>
