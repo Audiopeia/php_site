@@ -75,14 +75,14 @@ div#botoes{
 
 .bt-buy {
 	width:340px;
-	height:100px;
+	height:125px;
 	border:none;
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
    	background: #0d787f; /* Old browsers */
-    background: -moz-linear-gradient(top, #18bbc6 0%, #d787f9 100%); /* FF3.6+ */
+    background: -moz-linear-gradient(top, #18bbc6 0%, #0d787f 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left, top, left bottom, color-stop(0%,#18bbc6), color-stop(100%,#0d787f)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #18bbc6 0%, #0d787f 100%)100; /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top, #18bbc6 0%, #0d787f 100%); /* Opera 11.10+ */
@@ -104,7 +104,7 @@ div#botoes{
 
 .bt-sell {
 	width:340px;
-	height:100px;
+	height:125px;
 	border:none;
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
