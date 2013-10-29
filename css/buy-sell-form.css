@@ -15,7 +15,12 @@
     line-height:22px;
 }
 
-.concierge-dialog-form{
+.invisible {
+    display:none;
+    visibility:hidden;
+}
+
+#concierge-dialog-form{
     width:370px;
     height:auto;
     font-family: "Segoe UI Semibold";
@@ -26,7 +31,7 @@
     background:grey;
 }
 
-.concierge-dialog-form input, textarea{
-    width:350px;
+#concierge-dialog-form input, textarea{
+    width:206px;
 }
 

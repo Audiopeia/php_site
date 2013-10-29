@@ -20,6 +20,8 @@
             </button>
         </div>
     </div>
+
+    <div id="buy-sell-dialog" class="invisible"></div>
 </div>
 
 <?php include "./includes/footer.html"; ?>
