@@ -3,15 +3,14 @@
 
 div#header{
     width:auto;
-	height:90px;
+    height:115px;
     padding-left: 50px;
     padding-right: 50px;
     /*
-    height:112px;
 	margin-top:0;
     background-color: black;
     */
-	background:url(../imagens/spotlights.jpg);
+    background:url(../imagens/spotlights.jpg);
 }
 
 div.header img{

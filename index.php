@@ -2,8 +2,8 @@
 
 <div class="navbar-inner content" id="animacao">
     <div class="catalogo">
-        <h2>Música de qualidade sem complicação!</h2>
-        <h1>VOCÊ DIZ A TRILHA QUE PROCURA E A <br> AUDIOPEIA ENCONTRA PARA VOCÊ</h1>
+        <h2>Música de qualidade ao seu alcance!</h2>
+        <h1>VOCÊ DESCREVE SEU PROJETO E A <br> AUDIOPEIA SONORIZA PARA VOCÊ</h1>
         <!--
         <h3>A Audiopeia encontra para você!</h3>
         -->
