@@ -4,9 +4,7 @@
     <div class="catalogo">
         <h2>Música de qualidade ao seu alcance!</h2>
         <h1>VOCÊ DESCREVE SEU PROJETO E A <br> AUDIOPEIA SONORIZA PARA VOCÊ</h1>
-        <!--
-        <h3>A Audiopeia encontra para você!</h3>
-        -->
+        <h3>Basta clicar em "BUSCAR MÚSICAS"</h3>
         <div class="clear"></div>
     </div>
 

@@ -39,7 +39,7 @@ div.catalogo h2{
 	font-family: "Segoe UI Semibold";
 	font-size:25px;
 	color:#18bdc8;
-	line-height:18px;
+	line-height:20px;
 	text-align:center;
 }
 
@@ -47,20 +47,19 @@ div.catalogo h1{
 	font-family: "Segoe UI Semibold";
 	font-size:40px;
 	color:#FFF;
-	line-height:40px;
+	line-height:45px;
 	text-align:center;
-    margin-top:20px;
-    margin-bottom:20px;
-    padding-top:40px;
-    padding-bottom:40px;
+    margin-top:45px;
+    margin-bottom:40px;
 }
 
 div.catalogo h3{
 	font-family: "Segoe UI Semibold";
 	font-size:18px;
 	color:#B2BCC0;
-	line-height:18px;
+	line-height:20px;
 	text-align:center;
+    margin-top:40px;
 }
 
 div#esp-botoes{
